@@ -1,5 +1,7 @@
 # Databricks
 
+[Free Edition](https://www.databricks.com/learn/free-edition)
+
 # Contents
 * [Alex The Analysis](https://github.com/progressivepull/Databricks-Deep-Dives/blob/main/YouTube_Alex_The_Analysis.md)
 
