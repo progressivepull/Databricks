@@ -54,4 +54,8 @@ Go to **Setting -> Applications (Integrations)**
 
 [How to Integrate Databricks with GitHub Repos (Git Folders) | Step-by-Step Tutorial](https://www.youtube.com/watch?v=uljYTx7nzy8)
 
+# Commit to GitHub
+Click on the following icon to commit to GitHub
+![git_commit.png](https://github.com/progressivepull/Resources/blob/main/Databricks/git_commit.png)
+
 
