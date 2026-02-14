@@ -22,13 +22,15 @@ Databricks supports **custom containers** for jobs and ML workloads.
 
 You create a Dockerfile like:
 
-dockerfile
+``` dockerfile
 
 FROM databricksruntime/standard:latest
 
 RUN pip install pandas==2.1.0
 
 RUN pip install databricks-connect
+
+``` 
 
 Then push it to a registry (ECR, ACR, GCR, Docker Hub) and reference it
 in your Databricks job cluster config.
@@ -48,11 +50,12 @@ Databricks.
 
 Example Dockerfile:
 
-dockerfile
+``` dockerfile
 
 FROM openjdk:11
 
 RUN pip install databricks-connect==15.0 pyspark
+``` 
 
 This lets you:
 
@@ -66,11 +69,12 @@ This lets you:
 
 If you want to test Delta tables or ETL logic locally:
 
-dockerfile
+``` dockerfile
 
 FROM bitnami/spark:latest
 
 RUN pip install delta-spark
+``` 
 
 This is perfect for:
 
