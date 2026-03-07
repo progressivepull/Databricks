@@ -117,7 +117,9 @@ business tools can use it to create reports and charts.
 **🏢 Core Platform Sections**
 
 **1️⃣
-Workspace**<img src="./media/image4.png" style="width:6.5in;height:2.18472in" />
+Workspace**
+
+<img src="./media/image4.png" style="width:6.5in;height:2.18472in" />
 
 <img src="./media/image5.png" style="width:6.5in;height:1.92847in" />
 
