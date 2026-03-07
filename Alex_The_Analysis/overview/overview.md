@@ -121,6 +121,8 @@ Workspace**
 
 <img src="./media/image4.png" style="width:6.5in;height:2.18472in" />
 
+**GitHub**
+
 <img src="./media/image5.png" style="width:6.5in;height:1.92847in" />
 
 <img src="./media/image6.png" style="width:6.5in;height:3.94653in"
