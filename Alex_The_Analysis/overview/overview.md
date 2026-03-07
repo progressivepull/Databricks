@@ -489,3 +489,5 @@ style="width:4.5825in;height:3.63391in" />
 - Strong focus on collaboration and automation.
 
 - AI integration significantly speeds up workflows.
+
+ ## [Context](./../context.md)
