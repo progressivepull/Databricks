@@ -11,9 +11,8 @@
     - [Learn Databricks in Under 2 Hours |Alex The Analyst | YouTube ](https://www.youtube.com/watch?v=CoqZTt528ew&t=691s)
     - [AlexTheAnalyst/DatabricksSeries | GitHub ](https://github.com/AlexTheAnalyst/DatabricksSeries)
 * [DataBeli | YouTube](https://www.youtube.com/@DataBeli/playlists)
+   - [Databricks Lakeflow Declarative Pipelines Demo with SQL, Pyspark, DQ and E2E ETL | DataBeli | YouTube ](https://www.youtube.com/watch?v=HkScZkxHIns)
 
-* [Delta Live Tables: Building Reliable ETL Pipelines with Azure Databricks](https://www.youtube.com/watch?v=nh-vEj_285M)
-    - [Databricks Lakeflow Declarative Pipelines Demo with SQL, Pyspark, DQ and E2E ETL | DataBeli | YouTube ](https://www.youtube.com/watch?v=HkScZkxHIns)
 
 # Configuration with GitHub
 Go to **Setting -> Applications (Integrations)**
