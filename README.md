@@ -1,4 +1,4 @@
-# Databricks
+\# Databricks
 
 [Free Edition](https://www.databricks.com/learn/free-edition)
 
@@ -12,6 +12,7 @@
     - [AlexTheAnalyst/DatabricksSeries | GitHub ](https://github.com/AlexTheAnalyst/DatabricksSeries)
 * [DataBeli | YouTube](https://www.youtube.com/@DataBeli/playlists)
    - [Databricks Lakeflow Declarative Pipelines Demo with SQL, Pyspark, DQ and E2E ETL | DataBeli | YouTube ](https://www.youtube.com/watch?v=HkScZkxHIns)
+* [Azure End-To-End Data Engineering Project for Beginners (FREE Account) | SQL DB Tutorial | AI Luke | YouTube](https://www.youtube.com/watch?v=ygJ11fzq_ik)
 
 
 # Configuration with GitHub
