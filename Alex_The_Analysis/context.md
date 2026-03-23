@@ -11,7 +11,7 @@ Get a Databricks Free Account Here:
 Get the data here:          
 [GitHub](https://github.com/AlexTheAnalyst/DatabricksSeries)           
 
-____________________________________________ 
+---
 
 # Step by Step Guides
 * [Overview 0 minutes to 11 minutes](./overview/overview.md)
@@ -19,9 +19,7 @@ ____________________________________________
 * [Visualization 23 minutes to 43 minutes](./visualization/visualization.md)
 * [Genie 43 minutes to 100 minutes](./genie/genie.md)
 
-
-
-
+---
 
 # RESOURCES:             
 
@@ -44,16 +42,18 @@ SQL for Data Analysts (SSMS) - https://bit.ly/3fkqEij
 Tableau A-Z - http://bit.ly/385lYvN                    
 
 Please note I may earn a small commission for any purchase through these links - Thanks for supporting the channel!
-____________________________________________ 
+
+---
 
 # BECOME A MEMBER 
 
 Want to support the channel? Consider becoming a member! I do Monthly Livestreams and you get some awesome Emoji's to use in chat and comments!
 
-   / @alextheanalyst  
-____________________________________________ 
+   / @alextheanalyst 
+   
+---
 
-Websites:                    
+# Websites:                    
 💻Website: AlexTheAnalyst.com                              
 💾GitHub: https://github.com/AlexTheAnalyst                                   
 📱Instagram: @Alex_The_Analyst  
