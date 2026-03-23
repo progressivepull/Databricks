@@ -64,12 +64,15 @@ DBFS Use Cases
 * Collaboration
 
 
+# References
 
 
-
-# YouTube Tutorials
-
+**YouTube**
 * [Alex_The_Analysis](./YOUTUBE/Alex_The_Analysis.md)
 
+**Markdown**        
+* [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)   
 
-
+**Databricks Official Training**
+* [Customer Academy](https://customer-academy.databricks.com/learn/signin)
+* [Databricks Resources](https://www.databricks.com/resources?_sft_resource_type=training)
