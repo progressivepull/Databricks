@@ -320,4 +320,4 @@ Next step preview:
 
 - Building visualizations in Databricks.
 
-# [Content](./../content.md)
+# [Context](./../context.md)
