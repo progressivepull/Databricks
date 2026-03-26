@@ -162,8 +162,6 @@
 
 **NOTES**
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
 To read or interact with a file located
 at dbfs:/mnt/data/sample.csv in [Databricks](https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.databricks.com/&ved=2ahUKEwi_ya6rpYmTAxUZrYkEHZcxOysQy_kOegYIAQgCEAE&opi=89978449&cd&psig=AOvVaw1u8x6r4-4JHdT615amfQaL&ust=1772818404744000),
 you can use Spark, Pandas, or Databricks Utilities.
