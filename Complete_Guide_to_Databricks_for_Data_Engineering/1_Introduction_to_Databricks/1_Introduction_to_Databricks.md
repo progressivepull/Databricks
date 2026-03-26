@@ -1,4 +1,6 @@
-# What is Databricks
+# 1. Introduction to Databricks
+
+## 1.1 What is Databricks
 
 - **Databricks** is a cloud-based unified data analytics platform.
 
@@ -147,8 +149,6 @@
 
   - Enhanced with additional performance improvements and features.
 
-------------------------------------------------------------------------
-
 **Use Cases**
 
 - Data engineering workloads
@@ -206,7 +206,7 @@
 
 - Widely adopted for building Lakehouse and analytics solutions.
 
-# Setting up a Databricks workspace
+## 1.2 Setting up a Databricks workspace
 
 **Creating a Databricks Workspace**
 
@@ -255,7 +255,6 @@
 
 - Job title
 
-<!-- -->
 
 - Click **Continue**.
 
@@ -269,8 +268,6 @@
 - Azure
 
 - GCP
-
-<!-- -->
 
 - You get a **14-day free trial** with cloud providers.
 
@@ -351,7 +348,7 @@
 
   - Performing data engineering and analytics tasks.
 
-# Navigating the Databricks interface
+## 1.3 Navigating the Databricks interface
 
 **Databricks Workspace Walkthrough**
 
@@ -379,8 +376,6 @@
 - Jobs
 
 - Pipelines
-
-<!-- -->
 
 - Central place to start any new development task.
 
@@ -566,7 +561,7 @@ alt="Graphical user interface, application, Word AI-generated content may be inc
 
 - Familiarity increases as you continue using the platform.
 
-# 1.4 Introduction to Databricks notebooks
+## 1.4 Introduction to Databricks notebooks
 
 **Databricks Notebooks**
 
@@ -754,7 +749,7 @@ alt="Graphical user interface, application AI-generated content may be incorrect
 
   - Attach it to the notebook for execution.
 
-# Create a single-node cluster for practice
+## 1.5 Create a single-node cluster for practice
 
 **Compute Cluster in Databricks**
 

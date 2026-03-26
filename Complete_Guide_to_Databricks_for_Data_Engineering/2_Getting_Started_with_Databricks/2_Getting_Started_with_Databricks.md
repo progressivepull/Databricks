@@ -27,7 +27,7 @@
 
   - AWS S3
 
-  - Google Cloud Storage  
+  - Google Cloud Storage
     (based on chosen cloud provider)
 
 ------------------------------------------------------------------------
@@ -172,23 +172,23 @@ This is the most common way to read data into a [Spark
 DataFrame](https://www.google.com/url?sa=i&source=web&rct=j&url=https://docs.databricks.com/aws/en/query/formats/csv&ved=2ahUKEwi_ya6rpYmTAxUZrYkEHZcxOysQy_kOegYIAQgEEAE&opi=89978449&cd&psig=AOvVaw1u8x6r4-4JHdT615amfQaL&ust=1772818404744000) for
 large-scale processing. 
 
-\`\`\` python
+``` python
 
-*\# Read the CSV file into a Spark DataFrame*
+# Read the CSV file into a Spark DataFrame*
 
-df = spark.read.format("csv") \\
+df = spark.read.format("csv")
 
-.option("header", "true") \\
+.option("header", "true")
 
-.option("inferSchema", "true") \\
+.option("inferSchema", "true")
 
 .load("dbfs:/mnt/data/sample.csv")
 
-*\# Display the first 10 rows*
+# Display the first 10 rows*
 
 display(df)
 
-\`\`\`
+```
 
 **2. Using Pandas**
 
@@ -196,51 +196,51 @@ Standard Pandas (pd.read_csv) cannot directly access
 the dbfs:/ protocol. You must use the local file API path by
 replacing dbfs: with /dbfs/. 
 
-\`\`\` python
+``` python
 
 import pandas as pd
 
-*\# Use the local file API mount point to read with Pandas*
+# Use the local file API mount point to read with Pandas*
 
 file_path = "/dbfs/mnt/data/sample.csv"
 
 pdf = pd.read_csv(file_path)
 
-*\# Show the first few rows*
+# Show the first few rows*
 
 print(pdf.head())
 
-\`\`\`\`
+```
 
 **3. Using Databricks Utilities (dbutils)**
 
 Use dbutils.fs to manage the file, such as checking if it exists or
 listing directory contents. 
 
-\`\`\` python
+``` python
 
-*\# List files in the directory to verify location*
+# List files in the directory to verify location*
 
 display(dbutils.fs.ls("/mnt/data/"))
 
-*\# Read the first few lines of the file as a string*
+# Read the first few lines of the file as a string*
 
 head_content = dbutils.fs.head("dbfs:/mnt/data/sample.csv", 1024)
 
 print(head_content)
 
-\`\`\`
+```
 
 **4. Using SQL**
 
 If you prefer SQL, you can query the file directly if the workspace is
 configured to read files from DBFS. 
 
-\`\`\` sql
+``` sql
 
 SELECT \* FROM csv.\`dbfs:/mnt/data/sample.csv\`
 
-*\`\`\`*
+```
 
 **Common Tips:**
 
@@ -367,7 +367,7 @@ production pipeline?
 
 - File location depends on the upload method, but you can customize it.
 
-**Key idea:**  
+**Key idea:**
 DBFS acts as centralized storage, and you can upload data either via the
 UI or notebook, choosing where it’s stored.
 
