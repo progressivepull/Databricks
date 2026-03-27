@@ -494,6 +494,7 @@ functions from pyspark.sql.functions.
 
 Here’s the clean way to do it:
 
+**Python** 
 ``` python
 
 from pyspark.sql import functions as F
@@ -508,6 +509,7 @@ F.upper(F.trim(F.col("your_column"))).alias("cleaned_column")
 
 **Example**
 
+**Python** 
 ``` python
 
 from pyspark.sql import SparkSession  
@@ -527,25 +529,19 @@ F.upper(F.trim(F.col("text"))).alias("text_clean")
 **Output**
 
 ```
-
 +----------+
-
-\|text_clean\|
-
+|text_clean|
 +----------+
-
-\| HELLO\|
-
-\| WORLD\|
-
+|   HELLO  |
+|   WORLD  |
 +----------+
-
 ```
 
 **Tip**
 
 You can apply this to multiple columns:
 
+**Python**     
 ``` python
 
 df.select(
