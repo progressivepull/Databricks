@@ -32,11 +32,12 @@
 - **Overall:** Provides a high-level API for processing large-scale data
   efficiently
 
-## **3.**2 Read a CSV file in Databricks
+## 3.2 Read a CSV file in Databricks
 
-- Using Notebooks with Linux
-  commands<img src="./media/image1.png" style="width:6.5in;height:2.55486in"
-  alt="Table AI-generated content may be incorrect." />
+- Using Notebooks with Linux commands                                                         
+  
+  <img src="./media/image1.png" style="width:6.5in;height:2.55486in"
+  alt="Table AI-generated content may be incorrect." />                                  
 
 <!-- -->
 
